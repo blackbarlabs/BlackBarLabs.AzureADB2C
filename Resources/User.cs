@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlackBarLabs.AzureADB2C.Resources
+namespace EastFive.AzureADB2C.Resources
 {
     [DataContract]
     public class User

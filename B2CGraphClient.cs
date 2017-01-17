@@ -10,7 +10,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlackBarLabs.AzureADB2C
+namespace EastFive.AzureADB2C
 {
     public class B2CGraphClient
     {
@@ -34,6 +34,11 @@ namespace BlackBarLabs.AzureADB2C
             // The ClientCredential is where you pass in your client_id and client_secret, which are 
             // provided to Azure AD in order to receive an access_token using the app's identity.
             this.credential = new ClientCredential(clientId, clientSecret);
+        }
+
+        public string GetTokenAsync(string userId, string token)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<string> GetUserByObjectId(string objectId)

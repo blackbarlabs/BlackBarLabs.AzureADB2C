@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlackBarLabs.AzureADB2C
+namespace EastFive.AzureADB2C
 {
     internal static class Globals
     {

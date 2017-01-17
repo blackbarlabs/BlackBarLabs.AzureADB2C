@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlackBarLabs.Security.CredentialProvider.AzureADB2C
+namespace EastFive.AzureADB2C.Resources
 {
-    public class KeyResource
+    internal class KeyResource
     {
         public class Key
         {
